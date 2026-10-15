@@ -2,70 +2,123 @@ body {
     font-family: "Roboto", sans-serif;
     max-width: 900px;
     margin: auto;
-    background-color: rgb(60, 155, 184);
+    background: #72c4db;
+    background: linear-gradient(180deg,rgba(114, 196, 219, 1) 0%, rgba(183, 225, 237, 1) 27%, rgba(215, 238, 245, 1) 60%, rgba(255, 255, 255, 1) 100%);
 }
 
 
 /* Header Home */
-#header_home nav {
+#header-home nav {
     margin-bottom: 1rem;
+    width: 50%;
 }
 
 .logo {
-    text-align: center;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+    display: block; 
+    margin: 2rem auto;
+    width: 150px;
+    
 }
 
 .logo:hover {
-    color: rgb(58, 58, 58);
+    font-weight: bold;
+    text-shadow: 6px 3px 5px grey;
+}
+
+
+.nav {
+    text-align: center;
+    margin: auto;
 }
 
 .nav a {
     text-decoration: none;
     color: black;
+    
 }
 
 .nav a p{
-    text-align: center;
-    background-color: rgb(38, 144, 185);
+    background-color: rgb(134, 196, 221);
+    padding: 0.5em;
     border-radius: 4px;
+    
+    border: 1px rgb(94, 94, 94) solid;
+}
+
+.nav a p:hover {
+    background-color: rgb(53, 177, 226);
+    font-weight: bold;
+    box-shadow: 7px 5px 8px rgb(115, 167, 187);
 }
 
 /* Main section Home */
-#main_home {
-    background-color: rgba(71, 195, 226, 0.267);
-    border: 2px rgb(48, 125, 170) solid;
+#main-home {
+    background-color: rgb(190, 230, 247);
+    border: 2px rgb(169, 194, 209) solid;
     border-radius: 10px;
     padding: 0.8rem;
 }
 
 .welcome-section {
     text-align: center;
-    background-color: rgb(192, 235, 252);
-    border: 2px rgb(49, 120, 153) solid;
+    background-color: rgb(178, 219, 235);
+    border: 2px rgb(106, 121, 128) solid;
     border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 7px 5px 8px rgb(52, 72, 80);
+    max-width: 90%;
+    margin: auto;
 }
-
-
-
 
 /* Destinations */
-.showcase_image {
-    border: 3px rgb(255, 255, 255) solid;
+.destinations-section {
     border-radius: 10px;
-    box-sizing: border-box;
+    text-align: center;
 }
 
-/* .destination-description {
-    text-align: center;
-} */
+.destinations-section > p {
+    font-size: 1.6rem;
+}
 
 .about-destination {
-    margin-bottom: 4rem;
+    background-color: rgb(162, 205, 223);
+    padding: 0 1rem;
+    border-radius: 10px;
+    border: 2px rgb(106, 121, 128) solid;
+    box-shadow: 7px 5px 8px rgb(52, 72, 80);
+    max-width: 80%;
+    margin: 2rem 4rem auto;
 }
 
 
+
+.destinations-about-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+.destination-description {
+    padding: 1rem;
+
+}
+
+
+.showcase-image {
+    border: 3px rgb(152, 179, 184) solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 7px 5px 8px rgb(115, 167, 187);
+    width: 90%;
+}
+
+.client-stories {
+    padding: 0 1rem;
+}
 
 
 
@@ -73,13 +126,16 @@ body {
 .btn-learn-more {
     color: black;
     text-decoration: none;
-    background-color: rgb(71, 138, 226);
-    padding: 0.8rem;
+    background-color: rgb(107, 200, 236);
+    padding: 0.5rem 0.8rem;
     border-radius: 4px;
+    box-shadow: 7px 5px 6px rgb(52, 72, 80);
+    border: 1px rgb(106, 121, 128) solid;
 }
 
 .btn-learn-more:hover {
-    background-color: rgb(78, 150, 243);
+    background-color: rgb(88, 207, 216);
+    
 }
 
 /* About page style*/
@@ -90,22 +146,27 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(0, 0, 0);
-    height: 100vh;
-
-    color: white;
+    height: 100%;
+    color: rgb(224, 221, 206);
 }
 
-/* Header */
+/* Header about*/
 #header-about {
     margin-bottom: 1rem;
 }
 
 .logo-about {
-    color: white;
+    color: rgb(224, 224, 224);
 }
 
+.logo-about:hover {
+    color: white;
+    font-weight: bold;
+}
+
+ /* Nav about */
 .nav-about {
-    margin-bottom: 100px;
+    margin-bottom: 3rem;
 }
 
 .nav-about a{
@@ -115,29 +176,47 @@ body {
 }
 
 .nav-about a p{
-    color: white;
+    color: rgb(231, 231, 231);
     text-align: center;
 }
 
-/* Main */
-.main-about section{
-    margin-bottom: 4rem;
+.nav-about a p:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main about */
+#main-about {
+    padding: 0.6rem;
+    border-radius: 10px;
+    background-color: rgba(46, 162, 170, 0.432);
 }
 
 .about-lucas {
     text-align: center;
     margin-bottom: 4rem;
+    background-color: rgba(36, 124, 131, 0.76);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.548);
 }
 
 .adventure-list li{
     margin-bottom: 1rem;
 }
 
-.mage-credits-about a{
+.image-credits a{
     color: white;
 }
 
+.adventures {
+    padding: 0.8rem;
+    background-color: rgba(36, 124, 131, 0.76);
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.548);
+}
+
 /* Footer */
-footer {
+.footer {
     text-align: center;
 }
