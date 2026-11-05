@@ -4,6 +4,7 @@ body {
     margin: auto;
     background: #72c4db;
     background: linear-gradient(180deg,rgba(114, 196, 219, 1) 0%, rgba(183, 225, 237, 1) 27%, rgba(215, 238, 245, 1) 60%, rgba(255, 255, 255, 1) 100%);
+    font-size: 20px;
 }
 
 
@@ -20,7 +21,7 @@ body {
     text-align: center;
     display: block; 
     margin: 2rem auto;
-    width: 150px;
+    width: 180px;
     
 }
 
@@ -61,6 +62,7 @@ body {
     border: 2px rgb(169, 194, 209) solid;
     border-radius: 10px;
     padding: 0.8rem;
+
 }
 
 .welcome-section {
@@ -72,6 +74,7 @@ body {
     box-shadow: 7px 5px 8px rgb(52, 72, 80);
     max-width: 90%;
     margin: auto;
+
 }
 
 /* Destinations */
@@ -146,8 +149,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(0, 0, 0);
-    height: 100%;
+    height: 100vh;
     color: rgb(224, 221, 206);
+    background-position: center;
+    background-size: auto;
 }
 
 /* Header about*/
